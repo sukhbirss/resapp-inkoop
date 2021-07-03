@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  display: flex;
+  margin-top: calc(6vh + 80px + 10px);
+  overflow-x: hidden;
+  position: relative;
+}
+.container > h1 {
+  font-size: 70px;
+  width: 600px;
+  margin-right: 100px;
+  animation: createBox 1s;
+}
+.container > p {
+  color: grey;
+  width: 230px;
+  line-height: 1.5rem;
+  font-size: 18px;
+  position: absolute;
+  right: 0px;
+}
+
+.card-container {
+  display: flex;
+  width: 930px;
+  height: 320px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin-top: 100px;
+  padding-left: 10px;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+@keyframes createBox {
+  from {
+    transform: scale(0.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,46 @@
+.sidebar {
+  width: 200px;
+  padding-left: 100px;
+  padding-top: 6vh;
+  margin-right: 100px;
+  animation: navigation 0.75s;
+}
+.sidebar > h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.sidebar p {
+  color: #a39696;
+  margin: 6vh 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+.sidebar > button {
+  border: none;
+  background-color: rgb(228, 80, 80);
+  padding: 15px 60px;
+  border-radius: 30px;
+  font-size: 25px;
+  color: white;
+  margin-top: 5vh;
+}
+@media screen and (min-width: 1366px) {
+  .sidebar {
+    width: 200px;
+    padding-top: 6vh;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sidebar {
+    display: none;
+  }
+}
+@keyframes navigation {
+  from {
+    transform: translateX(-150%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

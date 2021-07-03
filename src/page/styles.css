@@ -1,0 +1,6 @@
+.home {
+  font-family: sans-serif;
+  display: flex;
+  max-width: 1366px;
+  margin: 0px auto;
+}
