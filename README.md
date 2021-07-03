@@ -1,4 +1,4 @@
-live link https://eager-mcclintock-8535f5.netlify.app/
+live link https://nifty-ritchie-df5160.netlify.app/
 
 instruction to run locally
 1 clone this repo using git clone command
